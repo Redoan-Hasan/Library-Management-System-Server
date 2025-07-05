@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "*",
+      "http://localhost:5173",
+      "https://library-management-system-server-puce.vercel.app",
     ],
     credentials: true
   })
