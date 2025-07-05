@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://library-management-system-server-puce.vercel.app",
+      "https://library-management-system-client-indol.vercel.app",
     ],
     credentials: true
   })
